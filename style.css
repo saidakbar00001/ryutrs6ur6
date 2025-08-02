@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    background-color: #2B3844;
+}
+header .container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.container h1{
+    margin: 20px;
+}
+section{
+    background-color: #202C36;
+}
+section input{
+    margin: 40px;
+     width: 350px;
+     height: 45px;
+     box-shadow: 0px 2px 9px 0px #0000000E;
+    background: #2B3844;
+    color: white;
+    margin-left: 150px;
+}
+.bola{
+    width: 264px;
+    height: 250px;
+    background: #2B3844;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden    ;
+}
+.bola p{
+    text-align: center;
+    padding: 30px 0;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
